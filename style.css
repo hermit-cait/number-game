@@ -1,0 +1,46 @@
+html {
+        font-family: sans-serif;
+        height: 100vh;
+        background: linear-gradient(#2BC0E4, #EAECC6);
+      }
+
+#game {
+  background: rgba(255, 255, 255, 0.3);
+  width: 25vw;
+  height: 40vh;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 15vh auto;
+  padding: 20px;
+}
+
+p {
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, .form, .lastResult, .lowOrHi {
+  text-align: center;
+}
+
+h1, p, label, input, button {
+  color: #197288;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.guessField {
+  width: 60px;
+}
+
+.lastResult {
+  color: white;
+  padding: 3px;
+}
+
+button {
+  margin-left: 13.57vw;
+}
