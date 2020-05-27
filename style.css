@@ -1,0 +1,98 @@
+html {
+  font-family: sans-serif;
+  height: 100%;
+  background: linear-gradient(#2BC0E4, #EAECC6);
+  background-attachment: fixed;
+}
+
+#game {
+  background: rgba(255, 255, 255, 0.3);
+  width: 40vw;
+  height: 320px;
+  margin: 0 auto;
+  margin-top: 8vh;
+  margin-bottom: 35px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, .form, .lastResult, .lowOrHi {
+  text-align: center;
+}
+
+h1, p, label, input, button {
+  font-family: Kreon;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  color: #197288;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 0.3em;
+  padding-top: 15px;
+}
+
+.guessField {
+  width: 60px;
+}
+
+.lastResult {
+  color: white;
+  padding: 3px;
+}
+
+#buttonSpace {
+  display: block;
+  width: 8.8em;
+  margin: 0 auto;
+}
+
+a:visited {
+  color: #197288;
+}
+
+footer {
+  background: rgba(255, 255, 255, 0.3);
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+  text-align: center;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 1365px) {
+
+  #game {
+    margin-top: 45px;
+    margin-bottom: 30px;
+  }
+
+  footer {
+    margin-bottom: 30px;
+  }
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+  #game {
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+
+  footer {
+    margin-bottom: 55px;
+  }
+
+}
